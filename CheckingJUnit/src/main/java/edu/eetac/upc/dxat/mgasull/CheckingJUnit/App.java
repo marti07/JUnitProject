@@ -11,8 +11,6 @@ public class App
     	ComplexOperations m = new ComplexOperations();
         System.out.println( "Hello World!" );
         System.out.println("ua");
-        System.out.println("mu!!");
-        System.out.println("cosa");
         System.out.println("");
         System.out.println(m.ToDegrees(3.14));
     }
