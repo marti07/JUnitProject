@@ -19,7 +19,7 @@ public class ComplexOperationsTest {
 	@Test
 	public void testPower() {
 		ComplexOperations math = new ComplexOperations();
-		assertEquals(16.00, power(0,2),2);
+		assertEquals(16.00, math.Power(0,2),2);
 		assertEquals(4.76, math.Power(1.35, 5.2), 2);
 	}
 
